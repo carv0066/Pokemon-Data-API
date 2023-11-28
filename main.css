@@ -1,0 +1,52 @@
+/* Adding background color and fonts */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #b3cee5;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 14px 0px 14px 0px;
+}
+
+/* Centering title and search bar */
+
+.main-txt{
+    text-align: center;
+    color:black;
+}
+/* Adding background banner image */
+
+.main-bg{
+    background-image: url(https://images7.alphacoders.com/381/381583.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center center;         
+    padding: 100px 0px 130px 0px;
+    
+}
+
+/* Search bar styling */
+
+.search-bar{
+    padding-top: 45px;
+}
+
+input,
+button{
+    padding: 3px;
+    border-radius: 3px;
+}
+
+ul{
+    padding: 0;
+}
